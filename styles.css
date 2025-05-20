@@ -1015,6 +1015,46 @@ body {
     width: 25%;
 }
 
+.presentacion {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}
+
+   .modelo {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+} 
+
+    .muchacha {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+} 
+
+  .bebe {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}    
+
+    .pareja {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}     
+
+    .vestido {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}     
+    
+    
+
+    
+
 .container-presentacion {
         width: 100%;
         max-width: 1000px;
