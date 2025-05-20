@@ -1,0 +1,2235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(img-inicio/Fondo\ web\ Fucsia\ Frame_02a.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;          
+}
+
+.navbar-nav li {
+    list-style: none;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    font-family: "Saira Extra Condensed", sans-serif;
+}
+
+.navbar-nav li:hover ul {
+    display: block;
+}
+
+.navbar-nav ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+}
+
+.navbar-nav ul li a {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar-nav ul li a:hover {
+    background-color: #ddd;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    padding: 0;
+}
+
+.inicio {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;    
+    font-family: "Saira Extra Condensed", sans-serif;
+}
+
+
+.inicio h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    padding: 20px 10px 0px 10px;
+    font-family: "Saira Extra Condensed", sans-serif;
+}
+
+.container-logo {
+    width: 90%;
+    max-width: 1000px;
+    margin: 1rem auto;    
+}
+
+.logo-fucsia {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 60vh;
+}
+
+.logo-fucsia img {
+    width: 40%;
+}
+
+.presentacion {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-presentacion {
+        width: 65%;
+        max-width: 1000px;
+        margin: 10px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+}
+
+.item-presentacion {
+    width: 400px;
+    height: 500px;
+}
+
+.item-presentacion img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .text-presentacion {
+           width: 500px;
+           height: 500px;
+           padding: 40px 60px 40px 60px;
+            font-size: 28px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+        } 
+
+
+
+
+.modelo {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}
+
+ .gallery-container {
+        width: 65%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60));   
+        }
+
+  .gallery-item {
+    width: 400px;
+    height: 600px;
+    
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+     
+        
+  .text-container {
+           width: 500px;
+           height: 500px;
+           padding: 40px 60px 40px 60px;
+            font-size: 28px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+        } 
+        
+  .muchacha {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+} 
+
+.gallery-container-2 {
+        width: 65%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60));   
+        }
+
+         .text-container-2 {
+           width: 500px;
+           height: 500px;
+           padding: 40px 60px 40px 60px;
+            font-size: 28px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+        } 
+
+.gallery-item-2 {
+    width: 400px;
+    height: 600px;
+    
+  }
+  
+  .gallery-item-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+    
+
+  
+
+
+
+   .bebe {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}       
+
+.pareja {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}       
+
+.vestido {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}  
+
+.footer {
+                margin: 0;
+                width: 100%;    
+                display: flex;    
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                background-color: rgb(255, 229, 254);                                      
+                font-family: "Saira Extra Condensed", sans-serif;                           
+            }
+            
+            .footer p {
+                margin: 0;
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;                
+                font-size: clamp(1rem, 2vw, 2rem);
+            } 
+
+
+/* Media queries */ 
+
+@media screen and (min-width: 360px) and (max-width: 374px) {   
+        
+         .nav-link {
+        width: 110px;
+    }
+
+
+
+    .inicio h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding: 10px 10px 0px 10px;    
+}
+
+.container-logo {
+    width: 90%;
+    max-width: 1000px;
+    margin: 1rem auto;    
+}
+
+
+
+.logo-fucsia {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 40vh;
+}
+
+.logo-fucsia img {
+    width: 80%;
+}
+
+
+
+.container-presentacion {
+    width: 90%;
+    flex-wrap: wrap;
+    height: 90%;
+}
+
+.item-presentacion {
+    height: 55vh;
+}
+
+.item-presentacion img {
+    width: 100%;
+}
+
+.gallery-container {
+    width: 90%;
+    flex-wrap: wrap;
+    height: 90%;
+}
+
+.gallery-container-2 {
+    width: 90%;
+    flex-wrap: wrap-reverse;
+    height: 90%;
+    
+}
+
+.text-presentacion {
+    font-size: 16px;
+    padding: 20px 30px 20px 30px;
+    height: 40%;
+}
+
+.text-container {
+    font-size: 16px;
+    padding: 20px 30px 20px 30px;
+    height: 40%;
+
+
+}
+
+.text-container-2 {
+    font-size: 16px;
+    padding: 20px 30px 20px 30px;
+    height: 40%;
+
+}
+
+.gallery-item {
+    width: 400px;
+    height: 60vh;    
+  }
+  
+  .gallery-item-2 {
+    width: 400px;
+    height: 60vh;    
+  }
+
+  .footer img {
+    width: 40px;
+  }
+  
+
+}
+
+
+
+
+@media screen and (min-width: 375px) and (max-width: 383px) {   
+        
+         .nav-link {
+        width: 110px;
+    }
+
+
+
+    .inicio h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 20px 10px 0px 10px;    
+}
+
+.container-logo {
+    width: 90%;
+    max-width: 1000px;
+    margin: 1rem auto;    
+}
+
+
+
+.logo-fucsia {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 40vh;
+}
+
+.logo-fucsia img {
+    width: 90%;
+}
+
+
+
+.container-presentacion {
+    width: 90%;
+    flex-wrap: wrap;
+    height: 95vh;
+}
+
+.item-presentacion {
+    height: 60vh;
+}
+
+.item-presentacion img {
+    width: 100%;
+}
+
+.gallery-container {
+    width: 90%;
+    flex-wrap: wrap;
+    height: 95vh;
+}
+
+.gallery-container-2 {
+    width: 90%;
+    flex-wrap: wrap-reverse;
+    height: 95vh;
+    
+}
+
+.text-presentacion {
+    font-size: 16px;
+    padding: 20px 30px 20px 30px;
+    height: 40%;
+}
+
+.text-container {
+    font-size: 16px;
+    padding: 20px 30px 20px 30px;
+    height: 40%;
+
+
+}
+
+.text-container-2 {
+    font-size: 16px;
+    padding: 20px 30px 20px 30px;
+    height: 40%;
+
+}
+
+.gallery-item {
+  
+    height: 60vh;    
+  }
+  
+  .gallery-item-2 {
+    
+    height: 60vh;    
+  }
+
+  .gallery-item img {
+    width: 100%;
+  
+    
+  }
+
+  .gallery-item-2 img {
+    width: 100%;
+    
+  }
+
+  .footer img {
+    width: 40px;
+  }
+  
+
+}
+
+
+
+@media screen and (min-width: 384px) and (max-width: 389px) {   
+        
+         .nav-link {
+        width: 110px;
+    }
+
+
+
+    .inicio h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding: 20px 10px 0px 10px;    
+}
+
+.container-logo {
+    width: 90%;
+    max-width: 1000px;
+    margin: 1rem auto;    
+}
+
+
+
+.logo-fucsia {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 60vh;
+}
+
+.logo-fucsia img {
+    width: 90%;
+}
+
+
+
+.container-presentacion {
+    width: 90%;
+    flex-wrap: wrap;
+    height: 90%;
+}
+
+.gallery-container {
+    width: 90%;
+    flex-wrap: wrap;
+    height: 90%;
+}
+
+.gallery-container-2 {
+    width: 90%;
+    flex-wrap: wrap-reverse;
+    
+}
+
+.text-presentacion {
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+    height: 40%;
+}
+
+.text-container {
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+    height: 40%;
+
+
+}
+
+.text-container-2 {
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+    height: 40%;
+
+}
+
+.gallery-item {
+    width: 400px;
+    height: 60vh;    
+  }
+  
+  .gallery-item-2 {
+    width: 400px;
+    height: 60vh;    
+  }
+
+  .footer img {
+    width: 40px;
+  }
+  
+
+}
+
+
+
+
+@media screen and (min-width: 390px) and (max-width: 411px) {   
+        
+         .nav-link {
+        width: 110px;
+    }
+
+
+
+    .inicio h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding: 20px 10px 0px 10px;    
+}
+
+.container-logo {
+    width: 90%;
+    max-width: 1000px;
+    margin: 1rem auto;    
+}
+
+
+
+.logo-fucsia {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 60vh;
+}
+
+.logo-fucsia img {
+    width: 90%;
+}
+
+
+
+.container-presentacion {
+    width: 90%;
+    flex-wrap: wrap;
+    height: 90%;
+}
+
+.gallery-container {
+    width: 90%;
+    flex-wrap: wrap;
+    height: 90%;
+}
+
+.gallery-container-2 {
+    width: 90%;
+    flex-wrap: wrap-reverse;
+    
+}
+
+.text-presentacion {
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+    height: 40%;
+}
+
+.text-container {
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+    height: 40%;
+
+
+}
+
+.text-container-2 {
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+    height: 40%;
+
+}
+
+.gallery-item {
+    width: 400px;
+    height: 60vh;    
+  }
+  
+  .gallery-item-2 {
+    width: 400px;
+    height: 60vh;    
+  }
+
+  .footer img {
+    width: 40px;
+  }
+  
+
+}
+
+
+
+
+
+@media screen and (min-width: 412px) and (max-width: 413px) {   
+        
+         .nav-link {
+        width: 110px;
+    }
+
+
+
+    .inicio h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    padding: 20px 10px 0px 10px;    
+}
+
+.container-logo {
+    width: 90%;
+    max-width: 1000px;
+    margin: 1rem auto;    
+}
+
+
+
+.logo-fucsia {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 60vh;
+}
+
+.logo-fucsia img {
+    width: 90%;
+}
+
+
+
+.container-presentacion {
+    width: 90%;
+    flex-wrap: wrap;
+    height: 90%;
+}
+
+.gallery-container {
+    width: 90%;
+    flex-wrap: wrap;
+    height: 90%;
+}
+
+.gallery-container-2 {
+    width: 90%;
+    flex-wrap: wrap-reverse;
+    
+}
+
+.text-presentacion {
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+    height: 40%;
+}
+
+.text-container {
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+    height: 40%;
+
+
+}
+
+.text-container-2 {
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+    height: 40%;
+
+}
+
+.gallery-item {
+    width: 400px;
+    height: 60vh;    
+  }
+  
+  .gallery-item-2 {
+    width: 400px;
+    height: 60vh;    
+  }
+
+  .footer img {
+    width: 40px;
+  }
+  
+
+}
+
+
+
+
+
+@media screen and (min-width: 414px) and (max-width: 427px) {   
+        
+         .nav-link {
+        width: 110px;
+    }
+
+
+
+    .inicio h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    padding: 20px 10px 0px 10px;    
+}
+
+.container-logo {
+    width: 90%;
+    max-width: 1000px;
+    margin: 1rem auto;    
+}
+
+
+
+.logo-fucsia {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 60vh;
+}
+
+.logo-fucsia img {
+    width: 90%;
+}
+
+
+
+.container-presentacion {
+    width: 90%;
+    flex-wrap: wrap;
+    height: 90%;
+}
+
+.gallery-container {
+    width: 90%;
+    flex-wrap: wrap;
+    height: 90%;
+}
+
+.gallery-container-2 {
+    width: 90%;
+    flex-wrap: wrap-reverse;
+    
+}
+
+.text-presentacion {
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+    height: 40%;
+}
+
+.text-container {
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+    height: 40%;
+
+
+}
+
+.text-container-2 {
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+    height: 40%;
+
+}
+
+.gallery-item {
+    width: 400px;
+    height: 60vh;    
+  }
+  
+  .gallery-item-2 {
+    width: 400px;
+    height: 60vh;    
+  }
+
+  .footer img {
+    width: 40px;
+  }
+  
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 428px) and (max-width: 767px) {   
+        
+         .nav-link {
+        width: 110px;
+    }
+
+
+
+    .inicio h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    padding: 20px 10px 0px 10px;    
+}
+
+.container-logo {
+    width: 90%;
+    max-width: 1000px;
+    margin: 1rem auto;    
+}
+
+
+
+.logo-fucsia {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 60vh;
+}
+
+.logo-fucsia img {
+    width: 90%;
+}
+
+
+
+.container-presentacion {
+    width: 90%;
+    flex-wrap: wrap;
+    height: 90%;
+}
+
+.gallery-container {
+    width: 90%;
+    flex-wrap: wrap;
+    height: 90%;
+}
+
+.gallery-container-2 {
+    width: 90%;
+    flex-wrap: wrap-reverse;
+    
+}
+
+.text-presentacion {
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+    height: 40%;
+}
+
+.text-container {
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+    height: 40%;
+}
+
+.text-container-2 {
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+    height: 40%;
+}
+
+.footer img {
+    width: 40px;
+}
+
+
+}
+
+    
+              
+
+@media screen and (min-width: 768px) and (max-width: 810px) {
+
+    
+
+     .nav-link {
+        width: 110px;
+    }
+
+    .inicio h1 {
+        font-size: 70px;
+        padding-top: 20px;
+    }
+
+    .logo-fucsia {
+        padding: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        height: 60vh;
+    }
+
+    .logo-fucsia img {
+        width: 80%;
+    }
+
+
+
+.container-presentacion {
+        width: 65%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        flex-wrap: wrap;
+}
+
+.gallery-container {
+    flex-wrap: wrap;
+}
+
+.gallery-container-2 {
+    flex-wrap: wrap-reverse;
+}
+
+}
+
+@media screen and (min-width: 660px) and (max-width: 667px) and (orientation: landscape) {
+
+     .inicio h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding: 10px 10px 0px 10px;
+    font-family: "Saira Extra Condensed", sans-serif;
+}
+
+.logo-fucsia {
+  height: 50vh;
+}
+
+.logo-fucsia img {
+    width: 25%;
+}
+
+.container-presentacion {
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;
+}
+
+.item-presentacion {
+    width: 25%;
+    height: 90vh;
+}
+
+.item-presentacion img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+
+
+ .text-presentacion {
+           width: 500px;           
+           padding: 40px 30px 40px 30px;
+            font-size: 14px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+            height: 90vh;
+        } 
+
+ .text-container {
+           width: 500px;           
+           padding: 40px 60px 40px 60px;
+            font-size: 16px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+            height: 90vh;
+ }
+
+ .text-container-2 {
+           width: 500px;           
+           padding: 40px 60px 40px 60px;
+            font-size: 16px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+            height: 90vh;
+        } 
+
+      .gallery-container {
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;  
+        }
+
+  .gallery-item {
+    width: 25%;
+    height: 90vh;
+    
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .gallery-container-2 {
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;  
+        }
+
+  .gallery-item-2 {
+    width: 25%;
+    height: 90vh;
+    
+  }
+  
+  .gallery-item-2 img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+}
+
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 668px) and (max-width: 760px) and (orientation: landscape) {
+
+     .inicio h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding: 10px 10px 0px 10px;
+    font-family: "Saira Extra Condensed", sans-serif;
+}
+
+.logo-fucsia {
+  height: 50vh;
+}
+
+.logo-fucsia img {
+    width: 25%;
+}
+
+.container-presentacion {
+        width: 88%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;
+}
+
+.item-presentacion {
+    width: 25%;
+    height: 90vh;
+}
+
+.item-presentacion img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+
+
+ .text-presentacion {
+           width: 500px;           
+           padding: 40px 60px 40px 60px;
+            font-size: 18px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+            height: 90vh;
+        } 
+
+ .text-container {
+           width: 500px;           
+           padding: 40px 60px 40px 60px;
+            font-size: 18px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+            height: 90vh;
+ }
+
+ .text-container-2 {
+           width: 500px;           
+           padding: 40px 60px 40px 60px;
+            font-size: 18px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+            height: 90vh;
+        } 
+
+      .gallery-container {
+        width: 94%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;  
+        }
+
+  .gallery-item {
+    width: 30%;
+    height: 90vh;
+    
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .gallery-container-2 {
+        width: 94%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;  
+        }
+
+  .gallery-item-2 {
+    width: 30%;
+    height: 90vh;
+    
+  }
+  
+  .gallery-item-2 img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+
+   
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 761px) and (max-width: 800px) and (orientation: landscape) {
+
+     .inicio h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding: 10px 10px 0px 10px;
+    font-family: "Saira Extra Condensed", sans-serif;
+}
+
+.logo-fucsia img {
+    width: 25%;
+}
+
+.container-presentacion {
+        width: 89.6%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;
+}
+
+.item-presentacion {
+    width: 30%;
+    height: 90vh;
+}
+
+.item-presentacion img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+
+
+ .text-presentacion {
+           width: 500px;           
+           padding: 40px 60px 40px 60px;
+            font-size: 18px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+            height: 90vh;
+        } 
+
+ .text-container {
+           width: 500px;           
+           padding: 40px 60px 40px 60px;
+            font-size: 18px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+            height: 90vh;
+ }
+
+ .text-container-2 {
+           width: 500px;           
+           padding: 40px 60px 40px 60px;
+            font-size: 18px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+            height: 90vh;
+        } 
+
+      .gallery-container {
+        width: 89.6%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;  
+        }
+
+  .gallery-item {
+    width: 30%;
+    height: 90vh;
+    
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .gallery-container-2 {
+        width: 89.6%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;  
+        }
+
+  .gallery-item-2 {
+    width: 30%;
+    height: 90vh;
+    
+  }
+  
+  .gallery-item-2 img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+
+   
+    
+
+
+}
+
+
+@media screen and (min-width: 801px) and (max-width: 812px) and (orientation: landscape) {
+
+     .inicio h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding: 10px 10px 0px 10px;
+    font-family: "Saira Extra Condensed", sans-serif;
+}
+
+.logo-fucsia img {
+    width: 25%;
+}
+
+.container-presentacion {
+        width: 88%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;
+}
+
+.item-presentacion {
+    width: 30%;
+    height: 90vh;
+}
+
+.item-presentacion img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+
+
+ .text-presentacion {
+           width: 500px;
+           height: 90vh;
+           padding: 40px 60px 40px 60px;
+            font-size: 18px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+        } 
+
+ .text-container {
+           width: 500px;
+           height: 90vh;
+           padding: 40px 60px 40px 60px;
+            font-size: 18px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+ }
+
+ .text-container-2 {
+           width: 500px;
+           height: 90vh;
+           padding: 40px 60px 40px 60px;
+            font-size: 18px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+        } 
+
+      .gallery-container {
+        width: 88%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;  
+        }
+
+  .gallery-item {
+    width: 30%;
+    height: 90vh;
+    
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .gallery-container-2 {
+        width: 88%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;  
+        }
+
+  .gallery-item-2 {
+    width: 30%;
+    height: 90vh;
+    
+  }
+  
+  .gallery-item-2 img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 813px) and (max-width: 844px) and (orientation: landscape) {
+
+     .inicio h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding: 10px 10px 0px 10px;
+    font-family: "Saira Extra Condensed", sans-serif;
+}
+
+.logo-fucsia img {
+    width: 25%;
+}
+
+.container-presentacion {
+        width: 84%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;
+}
+
+.item-presentacion {
+    width: 30%;
+    height: 90vh;
+}
+
+.item-presentacion img {
+    width: 100%;
+    height: 100%;    
+  }
+
+
+
+ .text-presentacion {
+           width: 500px;
+           height: 90vh;
+           padding: 40px 60px 40px 60px;
+            font-size: 18px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+        } 
+
+ .text-container {
+           width: 500px;
+           height: 90vh;
+           padding: 40px 60px 40px 60px;
+            font-size: 18px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+ }
+
+ .text-container-2 {
+           width: 500px;
+           height: 90vh;
+           padding: 40px 60px 40px 60px;
+            font-size: 18px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+        } 
+
+      .gallery-container {
+        width: 84%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;  
+        }
+
+  .gallery-item {
+    width: 30%;
+    height: 90vh;
+    
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .gallery-container-2 {
+        width: 84%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;  
+        }
+
+  .gallery-item-2 {
+    width: 30%;
+    height: 90vh;    
+  }
+  
+  .gallery-item-2 img {
+    width: 100%;
+    height: 100%;    
+  }
+
+
+}
+
+  
+
+
+@media screen and (min-width: 845px) and (max-width: 854px) and (orientation: landscape) {
+
+     .inicio h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding: 10px 10px 0px 10px;
+    font-family: "Saira Extra Condensed", sans-serif;
+}
+
+.logo-fucsia img {
+    width: 25%;
+}
+
+.container-presentacion {
+        width: 83%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;
+}
+
+.item-presentacion {
+    width: 30%;
+    height: 90vh;
+}
+
+.item-presentacion img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+
+
+ .text-presentacion {
+           width: 500px;
+           height: 90vh;
+           padding: 40px 60px 40px 60px;
+            font-size: 18px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+        } 
+
+ .text-container {
+           width: 500px;
+           height: 90vh;
+           padding: 40px 60px 40px 60px;
+            font-size: 18px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+ }
+
+ .text-container-2 {
+           width: 500px;
+           height: 90vh;
+           padding: 40px 60px 40px 60px;
+            font-size: 18px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+        } 
+
+      .gallery-container {
+        width: 83%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;  
+        }
+
+  .gallery-item {
+    width: 30%;
+    height: 90vh;
+    
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .gallery-container-2 {
+        width: 83%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;  
+        }
+
+  .gallery-item-2 {
+    width: 30%;
+    height: 90vh;    
+  }
+  
+  .gallery-item-2 img {
+    width: 100%;
+    height: 100%;    
+  }
+  
+
+}
+      
+
+@media screen and (min-width: 855px) and (max-width: 883px) and (orientation: landscape) {
+
+     .inicio h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding: 10px 10px 0px 10px;
+    font-family: "Saira Extra Condensed", sans-serif;
+}
+
+.logo-fucsia img {
+    width: 25%;
+}
+
+.container-presentacion {
+        width: 81%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;
+}
+
+.item-presentacion {
+    width: 30%;
+    height: 90vh;
+}
+
+.item-presentacion img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+
+
+ .text-presentacion {
+           width: 500px;
+           height: 90vh;
+           padding: 40px 60px 40px 60px;
+            font-size: 20px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+        } 
+
+ .text-container {
+           width: 500px;
+           height: 90vh;
+           padding: 40px 60px 40px 60px;
+            font-size: 20px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+ }
+
+ .text-container-2 {
+           width: 500px;
+           height: 90vh;
+           padding: 40px 60px 40px 60px;
+            font-size: 20px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+        } 
+
+      .gallery-container {
+        width: 81%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;  
+        }
+
+  .gallery-item {
+    width: 30%;
+    height: 90vh;
+    
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .gallery-container-2 {
+        width: 81%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;  
+        }
+
+  .gallery-item-2 {
+    width: 30%;
+    height: 90vh;    
+  }
+  
+  .gallery-item-2 img {
+    width: 100%;
+    height: 100%;   
+  }
+  
+}
+      
+
+
+@media screen and (min-width: 884px) and (max-width: 896px) and (orientation: landscape) {
+
+     .inicio h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding: 10px 10px 0px 10px;
+    font-family: "Saira Extra Condensed", sans-serif;
+}
+
+.logo-fucsia img {
+    width: 25%;
+}
+
+.container-presentacion {
+        width: 80%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;
+}
+
+.item-presentacion {
+    width: 30%;
+    height: 90vh;
+}
+
+.item-presentacion img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+
+
+ .text-presentacion {
+           width: 500px;
+           height: 90vh;
+           padding: 40px 60px 40px 60px;
+            font-size: 20px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+        } 
+
+ .text-container {
+           width: 500px;
+           height: 90vh;
+           padding: 40px 60px 40px 60px;
+            font-size: 20px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+ }
+
+ .text-container-2 {
+           width: 500px;
+           height: 90vh;
+           padding: 40px 60px 40px 60px;
+            font-size: 20px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+        } 
+
+      .gallery-container {
+        width: 80%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;  
+        }
+
+  .gallery-item {
+    width: 30%;
+    height: 90vh;
+    
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .gallery-container-2 {
+        width: 80%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;  
+        }
+
+  .gallery-item-2 {
+    width: 30%;
+    height: 90vh;    
+  }
+  
+  .gallery-item-2 img {
+    width: 100%;
+    height: 100%;    
+  }
+
+    
+}
+      
+
+
+
+@media screen and (min-width: 897px) and (max-width: 915px) and (orientation: landscape) {
+
+  
+ 
+
+     .inicio h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding: 10px 10px 0px 10px;
+    font-family: "Saira Extra Condensed", sans-serif;
+}
+
+.logo-fucsia img {
+    width: 25%;
+}
+
+.container-presentacion {
+        width: 75%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;
+}
+
+.item-presentacion {
+    width: 30%;
+    height: 90vh;
+}
+
+.item-presentacion img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+
+
+ .text-presentacion {
+           width: 500px;
+           height: 90vh;
+           padding: 40px 60px 40px 60px;
+            font-size: 20px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+        } 
+
+ .text-container {
+           width: 500px;
+           height: 90vh;
+           padding: 40px 60px 40px 60px;
+            font-size: 20px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+ }
+
+ .text-container-2 {
+           width: 500px;
+           height: 90vh;
+           padding: 40px 60px 40px 60px;
+            font-size: 20px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+        } 
+
+      .gallery-container {
+        width: 75%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;  
+        }
+
+  .gallery-item {
+    width: 30%;
+    height: 90vh;
+    
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .gallery-container-2 {
+        width: 75%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;  
+        }
+
+  .gallery-item-2 {
+    width: 30%;
+    height: 90vh;
+    
+  }
+  
+  .gallery-item-2 img {
+    width: 100%;
+    height: 100%;
+    
+  }   
+
+
+}
+      
+
+
+@media screen and (min-width: 916px) and (max-width: 926px) and (orientation: landscape) {
+
+  .navbar-nav {
+    position: relative;
+    
+  }
+
+.navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+
+    .inicio h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding: 10px 10px 0px 10px;
+    font-family: "Saira Extra Condensed", sans-serif;
+}
+
+.logo-fucsia img {
+    width: 25%;
+}
+
+.container-presentacion {
+        width: 75%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60));
+        height: 90vh;
+}
+
+.item-presentacion {
+    width: 30%;
+    height: 90vh;
+}
+
+.item-presentacion img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+
+
+ .text-presentacion {
+           width: 500px;          
+           padding: 40px 60px 40px 60px;
+            font-size: 20px;          
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+            height: 90vh;
+        } 
+
+ .text-container {
+           width: 500px;
+           height: 90vh;
+           padding: 40px 60px 40px 60px;
+            font-size: 20px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+ }
+
+ .text-container-2 {
+           width: 500px;
+           height: 90vh;
+           padding: 40px 60px 40px 60px;
+            font-size: 20px;            
+            text-align: justify;
+            font-family: "Saira Extra Condensed", sans-serif;
+        } 
+
+      .gallery-container {
+        width: 75%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;  
+        }
+
+  .gallery-item {
+    width: 30%;
+    height: 90vh;
+    
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .gallery-container-2 {
+        width: 75%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, .60)); 
+        height: 90vh;  
+        }
+
+  .gallery-item-2 {
+    width: 30%;
+    height: 90vh;    
+  }
+  
+  .gallery-item-2 img {
+    width: 100%;
+    height: 100%;    
+  }
+
+}
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
